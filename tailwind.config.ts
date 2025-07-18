@@ -18,6 +18,9 @@ export default {
 			}
 		},
 		extend: {
+			fontFamily: {
+				sans: ['Inter', 'system-ui', 'sans-serif'],
+			},
 			colors: {
 				border: 'hsl(var(--border))',
 				input: 'hsl(var(--input))',
@@ -61,7 +64,13 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
-				}
+				},
+				// Clinical research brand colors
+				teal: 'hsl(var(--teal))',
+				'teal-light': 'hsl(var(--teal-light))',
+				navy: 'hsl(var(--navy))',
+				'steel-blue': 'hsl(var(--steel-blue))',
+				'steel-blue-light': 'hsl(var(--steel-blue-light))'
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
